@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+  img {
+    margin-left: 10px;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  header {
+    background: #6a1b9a;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .zodiacnews {
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
+    display: flex;
+  }
+
+  .box {
+    background-color: #ed9cf3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  header p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  nav ul {
+    background: #8e24aa;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background: #ab47bc;
+  }
+
+  main {
+    padding: 2rem;
+  }
+  
+  .headline {
+    background: #ba68c8;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+  }
+
+  article a {
+    color: #8e24aa;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  .stress-list {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  .stress-list h2 {
+    margin-top: 0;
+    color: #6a1b9a;
+  }
+
+  .stress-list ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .stress-list ul li {
+    margin: 0.5rem 0;
+  }
+
+  .stress-list ul li a {
+    color: #8e24aa;
+    text-decoration: none;
+  }
+
+  .stress-list ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background: #6a1b9a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
